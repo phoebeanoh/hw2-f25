@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Verdana, sans-serif;  
+  background-color: #000000;               
+  color: #FFFFFF;                      
+  margin: 20px 20px 0 20px;                
+}
+
+/* ========== Type ========== */
+h1 {
+  font-size: 42px;
+  text-align: center;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #0D0D0D; 
+}
+
+p {
+  font-size: 24px;
+  padding: 10px 0 0 10px; 
+}
+
+/* ========== Images ========== */
+img {
+  width: 250px;                 
+  display: block;              
+  margin: 0 auto;              
+  border: 10px dashed #FFFFFF;  
+}
+
+/* ========== Default divs ========== */
+div {
+  min-height: 125px;           
+  padding: 20px;
+  border: 3px solid #FFFFFF;
+}
+
+/* ========== Introduction ========== */
+.introduction {
+  border-radius: 15px;
+  margin-top: 15px;
+  line-height: 2;
+}
+
+/* ========== Red section ========== */
+.red {
+  background-color: #FF0000;
+  text-align: right;
+  margin-left: 50px;
+
+  /* override default borders so only these sides show as required */
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 5px solid #FFFFFF;
+}
+
+/* ========== Blue section ========== */
+.blue {
+  background-color: #0000FF;  /* blue */
+  text-align: left;
+  margin-right: 50px;
+
+  
+  color: #C4C4C4;
+  border: none;
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+}
+
+/* ========== Yellow section ========== */
+.yellow {
+  background-color: #FFFF00;
+  text-align: right;
+  margin-left: 50px;
+
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 5px solid #FFFFFF;
+}
+
+
+.yellow p {
+  color: #707070;
+}
+
+/* ========== Green section ========== */
+
+.green {
+  background-color: #00D800;
+  text-align: left;
+  margin-right: 50px;
+
+  border: none;
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+}
+
+/* ========== Footer ========== */
+footer {
+
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    #0000FF 25%,
+    #0066FF 70%,
+    #000000 100%
+  );
+  border: 5px solid #FFFFFF;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: right;
+  padding: 15px 15px 15px 0;
+}
