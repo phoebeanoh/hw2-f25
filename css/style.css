@@ -69,6 +69,11 @@ div {
   border-top: 2px solid #FFFFFF;
 }
 
+.blue h2,
+.blue p {
+  color: #C4C4C4;
+}
+
 /* ========== Yellow section ========== */
 .yellow {
   background-color: #FFFF00;
